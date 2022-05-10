@@ -1,0 +1,109 @@
+@charset "utf-8";
+/*CSS document*/
+*
+{
+    margin: 0;
+    padding: 0;
+    color: #EEE;
+    font-family: "Arial";
+}
+
+body
+{
+    background-color: #000;
+}
+
+a
+{
+    text-decoration: none;
+    color: #06f;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#conteudo
+{
+    width: 990px;
+    border: 10px solid #FFF;
+    margin: auto;
+    background-color: #333;
+    box-shadow: 9px 9px 9px #222;
+}
+
+header
+{
+    background-color: #999;
+    height: 180px;
+}
+
+#logo
+{
+    padding: 25px;
+}
+
+nav
+{
+    background-color: #333;
+    height: 25px;
+}
+
+nav ul
+{
+    list-style: none;
+}
+
+nav ul li
+{
+    display: block;
+    float: left;
+    padding: 0 25px 0 25px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #06f;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px;
+    height: 22px;
+    float: left;
+}
+
+nau ul li a:hover
+{
+    background-color: #666;
+}
+
+article
+{
+    margin: 0 5px 5px 5px;
+    float: left;
+    width: 690px;
+    height: 290px;
+    background-color: #BBB;
+}
+
+aside
+{
+    width: 270px;
+    height: 290px;
+    margin: 0 5px 5px 5px;
+    float: right;
+    background-color: #397;
+}
+
+footer
+{
+    clear: both;
+    height: 40px;
+    background-color: #999;
+    font-size: 16px;
+    color: #FFF;
+    padding: 15px 0 0 0;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+/*CSS Document*/
+@charset "utf-8";
+
+body{
+    background-color: #2c2c2f;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-top: 45px;
+    margin-left: 110px;
+    box-shadow: 3px 3px 6px #FFF;
+}
+#vader{
+    margin: 15px;
+    width: 120px;
+    height: 120px;
+    float: right;
+    position: relative;
+    background: url(../img/tec.jpg) center;
+    background-color: #000;
+    border: 8px solid #ffffff;
+    border-radius: 90px;
+}
+
+
+#titulo{
+    clear: both;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Segoi UI";
+    text-align: center;
+    text-align: center;
+    margin: 0 0 8px 0;
+    text-shadow: 1px 1px 3px #990000;
+}
+
+#conteudo{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: #111;
+    border: 10px solid #DDD;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    color: #1fa207;
+}
+.botao{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family:"Segoe UI";
+    font-weight: bold;
+    color: aliceblue;
+    padding: 15px;
+    margin: 15px;
+    background-color: #006;
+    text-shadow: 2px 2px 6px #000;
+    border: 3px solid #fff;
+    width: 120px;
+}
+.botao:hover{
+    background-color: #600;
+}
+form{
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    color: #F30;
+    text-align: left;
+}
+pre{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #F00;
+}
+
+
+
+
+
+
+
+
+
